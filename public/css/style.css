@@ -125,4 +125,5 @@ table tr:hover td {
 
 .letra{
     padding:1px;
+    cursor: pointer;
 }

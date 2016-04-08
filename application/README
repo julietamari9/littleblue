@@ -1,0 +1,11 @@
+=======================================================================================================
+
+1) Apache: Clonar repo en html de apache (o htdocs si es el caso)
+2) DB: jecutar littleblue.sql (en application/sql)
+3) Cofiguracion databse: En application/config/database.php poner user y pass correspondiente a la configuracion de mysql
+4) Ir a localhost/littleblue
+
+Aclaración: Hay un .htaccess en la raiz del proyecto. Verificar que este configurado mod_rewrite de apache.
+
+
+==========================================================================================================

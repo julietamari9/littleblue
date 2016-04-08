@@ -97,6 +97,8 @@ $(document).ready(function(){
               }else{
                     td += "<tr><td> No hay registro </td></tr>";
                   }
+
+                 
                $('tbody').html(td);
                
             },
