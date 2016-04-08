@@ -10,10 +10,10 @@
                       </div>
                       <div class="container-fluid">
                         
-                            <table class="tabla-colegios center" data-toggle="table" style="width:90%;">
+                            <table class="tabla-colegios center table table-striped" data-toggle="table" style="width:70%;">
                                 <thead>
                                   <tr>
-                                    <th style="width:10%;" data-field="id_colegio">ID</th>
+                                    <th style="width:10%; text-align:center;" data-field="id_colegio">ID</th>
                                     <th style="text-align: center;" data-field="nombre">Nombre</th>
                                   </tr>
                                 </thead>
@@ -25,9 +25,8 @@
                            <button style="margin-top:20px;" type="button" class="btn btn-info ver-mas">Ver más</button>
                       </div>
                     </div>
-                  
-                  <?php $this->load->view('templates/footer'); ?>
                 </div>
+                <?php $this->load->view('templates/footer'); ?>
         </div>
    </body>
     

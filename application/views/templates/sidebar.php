@@ -2,7 +2,7 @@
             <div id="sidebar">
                 <ul class="nav list-group"  style="font-weight: 600;">
                     <li>
-                        <a class="list-group-item" href="#"><i class="icon-home icon-1x"></i>Buscar: <input id="buscar"/></a>
+                        <a class="list-group-item" href="#">Buscar: <i class="fa fa-search"></i> <input id="buscar"/></a>
                     </li>
                     <li>
                         <?php 

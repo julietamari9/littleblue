@@ -20,7 +20,7 @@
 <div id="header" class="navbar navbar-default navbar-fixed-top">
     
          <div class="text-center">
-            <h1> Little Blue</h1>
+            <h1> -- Little Blue --</h1>
         </div>
  
 </div>

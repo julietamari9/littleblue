@@ -46,16 +46,21 @@ $(document).ready(function(){
             {
               
            
-            var td = "";
-              $.each(data, function (index, value) {
-                debugger;
-                  if (data != null){
-                    td += "<tr>";
-                    td += "<td>" + value.id_colegio + "</td>";
-                    td += "<td>" + value.nombre + "</td>";
-                    td += "</tr>";
+             var td = "";
+             if (data.length > 0){
+                  $.each(data, function (index, value) {
+                     
+                        td += "<tr>";
+                        td += "<td>" + value.id_colegio + "</td>";
+                        td += "<td>" + value.nombre + "</td>";
+                        td += "</tr>";
+                    });
+                
+              }
+              else
+                  {
+                    td += "<tr><td> No hay registro </td></tr>";
                   }
-              });
 
                
                $('tbody').html(td);
@@ -81,13 +86,17 @@ $(document).ready(function(){
               
            //   $('#tabla-colegios').html();
             var td = "";
-              $.each(data, function (index, value) {
-                td += "<tr>";
-                td += "<td>" + value.id_colegio + "</td>";
-                td += "<td>" + value.nombre + "</td>";
-                td += "</tr>";
-              });
-               
+
+             if (data.length > 0){
+                $.each(data, function (index, value) {
+                  td += "<tr>";
+                  td += "<td>" + value.id_colegio + "</td>";
+                  td += "<td>" + value.nombre + "</td>";
+                  td += "</tr>";
+                });
+              }else{
+                    td += "<tr><td> No hay registro </td></tr>";
+                  }
                $('tbody').html(td);
                
             },
